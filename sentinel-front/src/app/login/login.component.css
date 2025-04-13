@@ -1,0 +1,101 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-titulo {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0a5e8c;
+}
+
+.login-titulo h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-titulo p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #555;
+}
+
+.login-left {
+  background-color: #f1f1dc;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.user-icon img {
+  width: 120px;
+  height: 120px;
+  border: 4px solid black;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 300px;
+}
+
+form input {
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+form button {
+  padding: 0.7rem;
+  background-color: #0b5880;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #09425f;
+}
+
+.login-right {
+  background-color: #056da9;
+  flex: 2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0; /* sem espaço entre a imagem e o texto */
+}
+
+.logo-img {
+  height: 170px;
+  display: block;
+  margin-right: -40px; /* empurra o texto pra perto da imagem */
+}
+
+.logo-text {
+  margin: 0;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Viga', sans-serif;
+  color: white;
+}
