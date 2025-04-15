@@ -83,13 +83,13 @@ form button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0; /* sem espaço entre a imagem e o texto */
+  gap: 0;
 }
 
 .logo-img {
   height: 170px;
   display: block;
-  margin-right: -40px; /* empurra o texto pra perto da imagem */
+  margin-right: -40px;
 }
 
 .logo-text {
